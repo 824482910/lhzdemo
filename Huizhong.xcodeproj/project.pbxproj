@@ -14,6 +14,7 @@
 		CFD0F6C4227C73E700BC4BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD0F6C2227C73E700BC4BC7 /* LaunchScreen.storyboard */; };
 		CFD0F6CF227C73E700BC4BC7 /* HuizhongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0F6CE227C73E700BC4BC7 /* HuizhongTests.swift */; };
 		CFD0F6DA227C73E700BC4BC7 /* HuizhongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0F6D9227C73E700BC4BC7 /* HuizhongUITests.swift */; };
+		CFD0F6ED227C74E000BC4BC7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0F6EC227C74E000BC4BC7 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CFD0F6D5227C73E700BC4BC7 /* HuizhongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuizhongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD0F6D9227C73E700BC4BC7 /* HuizhongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuizhongUITests.swift; sourceTree = "<group>"; };
 		CFD0F6DB227C73E700BC4BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD0F6EC227C74E000BC4BC7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,10 @@
 		CFD0F6B8227C73E600BC4BC7 /* Huizhong */ = {
 			isa = PBXGroup;
 			children = (
+				CFD0F6EA227C74D000BC4BC7 /* Classes */,
+				CFD0F6E8227C74C600BC4BC7 /* NetworkHander */,
+				CFD0F6E9227C74C600BC4BC7 /* Tools */,
+				CFD0F6E7227C744700BC4BC7 /* BaseViewController */,
 				CFD0F6B9227C73E600BC4BC7 /* AppDelegate.swift */,
 				CFD0F6BB227C73E600BC4BC7 /* ViewController.swift */,
 				CFD0F6BD227C73E600BC4BC7 /* Main.storyboard */,
@@ -123,6 +129,43 @@
 				CFD0F6DB227C73E700BC4BC7 /* Info.plist */,
 			);
 			path = HuizhongUITests;
+			sourceTree = "<group>";
+		};
+		CFD0F6E7227C744700BC4BC7 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0F6EC227C74E000BC4BC7 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		CFD0F6E8227C74C600BC4BC7 /* NetworkHander */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkHander;
+			sourceTree = "<group>";
+		};
+		CFD0F6E9227C74C600BC4BC7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CFD0F6EA227C74D000BC4BC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0F6EB227C74D000BC4BC7 /* HomeViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CFD0F6EB227C74D000BC4BC7 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +301,7 @@
 			files = (
 				CFD0F6BC227C73E600BC4BC7 /* ViewController.swift in Sources */,
 				CFD0F6BA227C73E600BC4BC7 /* AppDelegate.swift in Sources */,
+				CFD0F6ED227C74E000BC4BC7 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

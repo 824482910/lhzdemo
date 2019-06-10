@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let a = 1 + 1
+        print(a)
+        
+        for x in 0...10 {
+            print("\(x)",terminator:"")
+        }
+        
     }
 
 
